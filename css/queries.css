@@ -118,4 +118,15 @@
     height: auto;
     padding-left: 0;
   }
+  .icons {
+    display: inline-block;
+    position: absolute;
+    top: 8%;
+    padding: 0 3%;
+    transform: translateY(-25%);
+  }
+  .icons i {
+    display: inline;
+    padding-top: 5%;
+  }
 }
