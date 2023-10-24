@@ -1,6 +1,7 @@
 "usestrict";
 const menu = document.querySelector("#menu-icon");
 const navList = document.querySelector(".nav-list");
+const body = document.querySelector("body");
 
 const handlerMenuMobile = function () {
   menu.classList.toggle("bx-x");
@@ -15,6 +16,7 @@ const scrollReveal = ScrollReveal({
   delay: 450,
   reset: true,
 });
+
 scrollReveal.reveal(".logo", { delay: 100, origin: "left" });
 scrollReveal.reveal(".hero-text", { delay: 200, origin: "top" });
 scrollReveal.reveal(".hero-img", { delay: 450, origin: "top" });
